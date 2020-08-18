@@ -1,0 +1,110 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.hero-section, .desc-section, .icons-section {
+  margin-bottom: 75px;
+}
+
+.icons-section {
+  background-color: #1e1a13;
+}
+
+header img {
+  width: 100%;
+}
+
+p, h3 {
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.125em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.text-desc p {
+  font-size: 1em;
+}
+
+.desc-section {
+  white-space: nowrap;
+  margin-left: 9.375em;
+  margin-right: 9.375em;
+}
+
+.desc-section, .text-desc, .img-desc {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.text-desc {
+  width: 45%;
+  vertical-align: middle;
+  white-space: normal;
+  margin-right: 6.625em;
+}
+
+img.img-desc {
+  width: 45%;
+  vertical-align: middle;
+}
+
+.icons-section {
+  padding: 4em 9em 4em;
+}
+
+.icons-title {
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.caracteristica {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+
+.imagenes {
+  width: 70%;
+  margin: 0 15% 75px;
+  white-space: nowrap;
+}
+
+.imagenes-item {
+  height: 202px;
+  width: 316px;
+  padding: 0 0 0 1em;
+  white-space: normal;
+}
+
+.footer {
+  background-color: #1e1a13;
+}
+
+.footer p {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.footer {
+  vertical-align: middle;
+  padding: 2em 2em;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
